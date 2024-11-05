@@ -1,0 +1,56 @@
+#hero{
+    height: 100vh;
+    width: 100%; 
+    background: url(../Images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header{
+    position: absolute;
+    width: 90%;
+    padding: 10px;
+    top: 4%;
+
+    div ul{
+        gap: 7;
+        list-style: none;
+        font-size: 15px;
+    }
+
+    li a{
+        text-decoration: none;
+        color: #2145c7;
+        font-weight: 400;
+    }
+}
+
+#newsletter{
+    background: #ffa703;
+    padding: 50px;
+    
+}
+#newsletter-inputs{
+    border-radius: 50px;
+}
+
+footer{
+    background: #6b6868f7 ;
+    padding: 50px;
+
+    div ul{
+        gap: 7%;
+        text-decoration: none;
+        list-style: none;
+        font-size: 15px;
+    }
+    li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 400;
+    }
+} 
+
+
+
+   
